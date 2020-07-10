@@ -1,6 +1,6 @@
 const express = require('express');
-const config = require('../config');
-const tweetsRouter = require('./routes/tweets');
+const config = require('../../config/index');
+const tweetsRouter = require('./tweets');
 
 const app = express();
 
