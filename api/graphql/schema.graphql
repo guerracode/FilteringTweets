@@ -1,0 +1,11 @@
+type Tweet {
+  text: String!
+  user: String!
+  user_name: String
+  date: String
+}
+
+type Query {
+  "Devuelve todos los Tweets"
+  getTweets: [Tweet]
+}
