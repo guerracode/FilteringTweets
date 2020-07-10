@@ -8,9 +8,24 @@ The application will listen to tweets and track certain keywords and those tweet
 
 ## API REST
 
-To use the api rest functionality, move to api branch
+Run all servers at once:
 
-- Run all servers, it's explained above.👆🏼
+```bash
+npm run dev
+```
+
+Run servers separately:
+
+```bash
+# Run RabbitMQ server:
+npm run rabbitmq
+# Run Twitter server:
+npm run twitter
+# Run Express server:
+npm run api
+```
+
+- Run all servers.
 - You could use postman to test the API.
 - Send a **GET** request, to get all the tweets stored on Redis.
 
